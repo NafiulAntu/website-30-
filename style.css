@@ -1,0 +1,162 @@
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+body {
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+/*first container*/
+.first-container {
+  background-color: #2c3930;
+  position: relative;
+  padding-top: 70px;
+  height: 500px;
+}
+
+.first-span {
+  color: #ff9d23;
+}
+
+.me {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: #a27b5c 5px solid;
+}
+
+.para {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+/*second container*/
+.second-container {
+  background-color: #3f4f44;
+  padding-top: 50px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.mario {
+  height: 300px;
+  margin-top: 0px;
+}
+.skills-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 120px);
+  grid-template-rows: repeat(2, 120px);
+  gap: 30px;
+}
+
+.skill-box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.skill-box img {
+  width: 60px;
+  height: 60px;
+}
+/*thered container*/
+.third-container {
+  background-color: #a27b5c;
+  position: relative;
+  padding-top: 70px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.education-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 140px);
+  grid-template-rows: repeat(3, 120px);
+  gap: 30px;
+}
+
+.education-box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.education-box img {
+  width: 60px;
+  height: 60px;
+}
+
+.edu {
+  height: 450px;
+}
+.EDU {
+  color: #dcd7c9;
+}
+
+/*fourth container*/
+.fourth-container {
+  background-color: #dcd7c9;
+  padding-top: 00px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-grid {
+  display: flex; /* Ensures horizontal alignment */
+  gap: 100px; /* Reducing the gap for better spacing */
+}
+
+.link-box {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; /* Adds a rounded effect */
+}
+
+.link-box img {
+  width: 30px; /* Increased size for better visibility */
+  height: 30px;
+}
